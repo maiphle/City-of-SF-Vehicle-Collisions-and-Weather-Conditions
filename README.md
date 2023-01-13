@@ -1,2 +1,2 @@
 # City-of-SF-Vehicle-Collisions-and-Weather-Conditions
-An analysis of Vehicle Collisions in City of San Francisco and the weather condition at the time using API
+An analysis of Vehicle Collisions in City of San Francisco and the weather condition at the time using Python and API data
