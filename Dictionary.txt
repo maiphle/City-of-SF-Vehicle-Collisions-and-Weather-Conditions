@@ -1,0 +1,40 @@
+geographic variables: 'tb_latitude', 'tb_longitude', 'primary_rd'
+time variables: 'collision_datetime', 'collision_date', 'accident_year', 'month', 'day_of_week', 'Hour'
+weather variables: 'weather_1', 'main', 'description', 'temp', 'pressure', 'humidity', 'dew_point','clouds', 'wind_speed', 'wind_deg'
+collision details:'collision_severity', 'road_surface', 'road_cond_1', 'lighting','number_killed', 'number_injured', 'party1_type', 'total_involved'
+
+From SFGov data:
+
+*tb_latitude: Latitude of crash (WGS 84).
+*tb_longitude: Longitude of crash (WGS 84).
+*primary_rd: The road the crash occurred on.
+*collision_datetime: The date and time when the crash occurred.
+*collision_date: The date when the crash occurred.
+*accident_year: Year when the crash occurred.
+*month: Month when the crash occurred.
+*day_of_week: Day of week when the crash occurred.
+*Hour: Hour when the crash occurred.
+*weather_1: the weather condition at the time of the crash 
+*collision_severity: the injury level severity of the crash (highest level of injury in crash)
+*road_surface: Road surface.
+*road_cond_1: Road condition.
+*lighting: lighting at time of crash.
+*number_killed:  counts victims in the crash with degree of injury of fatal.
+*number_injured: counts victims in the crash with degree of injury of severe, visible, or complaint of pain.
+*party1_type: Party 1 vehicle type
+*total_involved: Sum of number killed and number injured.
+
+From OpenWeather data:
+
+*main: : the weather condition at the time of the crash 
+*description: Weather condition within the group
+*temp: Temperature, Fahrenheit
+*pressure: Atmospheric pressure on the sea level, hPa
+*humidity: Humidity, %
+*dew_point: Atmospheric temperature (varying according to pressure and humidity) below which water droplets begin to condense and dew can form, Fahrenheit.
+*clouds: Cloudiness, %
+*wind_speed: Wind speed, metre/sec
+*wind_deg: Wind direction, degrees (meteorological)
+
+
+
